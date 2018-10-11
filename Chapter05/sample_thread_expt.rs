@@ -28,6 +28,6 @@ fn main() {
 
     for thread_elements in thread_holder {
         // Wait for the thread to finish. Returns a result.
-        println!("Thread returned {:?}", thread_elements.join().unwrap()); 
+        println!("Thread returned {}", thread_elements.join().unwrap()); 
     }
 }
